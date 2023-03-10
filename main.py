@@ -12,7 +12,7 @@ if sel == "a":
         quit()
     else:
         print("YOU GUESSED WRONG, Try Again!")
-        print("Your Number was"), print(num1)
+        print("Your Number was " + str(num1))
         time.sleep(3)
         quit()
         
@@ -26,10 +26,7 @@ if sel == "b":
         quit()
     else:
         print("WRONG")
-        print("Your Number Was"), print(num2)
+        print("Your Number Was" +  str(num2))
         time.sleep(2)
         quit()
-
-
-#made by pogdog#1372
 
